@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="http://earthporn.operaf.tw" defaultlocale="en" viewmodes="minimized" version="1.0">
+  <name short="Earthporn">Earthporn in your Speed Dial</name>
+  <description>Shows the current top post on /r/earthporn in your speed dial.</description>
+  <author href="http://www.jonpacker.com" email="contact@jonpacker.com">Jon Packer</author>
+  <icon src="icon.png"/>
+  <access origin="*" />
+  <feature name="opera:speeddial" required="true">
+      <param name="url" value="http://www.reddit.com/r/earthporn"/>
+  </feature> 
+</widget>
